@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Dr. Kaan Kalkan"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Kaan Kalkan"
+description              : &description "my academic website"
 url                      : https://kalkan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : 
 repository               : "kalkan/kalkan.github.io"
@@ -21,7 +21,7 @@ repository               : "kalkan/kalkan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/pp.jpg"
+  avatar           : "profile.png"
   name             : "Dr. Kaan Kalkan"
   pronouns         : # example: "she/her"  
   bio              : "Remote Sensing Researcher | Geo-geek"
@@ -46,7 +46,6 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
