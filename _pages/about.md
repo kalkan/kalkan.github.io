@@ -15,4 +15,3 @@ In the past, while working as a Research Assistant at [ITU Geomatics Engineering
 I completed my undergraduate, graduate and doctoral studies at Istanbul Technical University Geomatics Engineering Department. You can access my CV from the relevant link. If you are passionate about Geomatics and want to participate in scientific research with me, just contact me via [e-mail](mailto:kaankalkan@gmail.com) or [linkedin](https://www.linkedin.com/in/kaankalkan/).
 
 My youtube page which you can find several Turkish videos related geomatics [kaankalkangeomatik](https://www.youtube.com/@kaankalkangeomatik)
-]--
