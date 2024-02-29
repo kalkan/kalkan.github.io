@@ -1,15 +1,29 @@
 # main links links
 main:
 
-  - title: "Teaching"
-    url: /teaching/    
+#   - title: "Publications"
+#     url: /publications/
 
   - title: "Publications"
-    url: /pages/yayinlarim.md
-    
-   - title: "Talks"
+    url: /pubs/    
+
+  - title: "Talks"
     url: /talks/    
+
+  - title: "Teaching"
+    url: /teaching/    
+    
+#  - title: "Portfolio"
+#    url: /portfolio/
+        
+#  - title: "Blog Posts"
+#    url: /year-archive/
+
+  - title: "Youtube"
+    url: /youtube/
+
+  - title: "Geospatial Python"
+    url: /geopy/
     
   - title: "CV"
     url: /cv/
-
