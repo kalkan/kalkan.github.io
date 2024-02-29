@@ -21,7 +21,7 @@ repository               : "kalkan/kalkan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "pp.jpg"
   name             : "Dr. Kaan Kalkan"
   pronouns         : # example: "she/her"  
   bio              : "Remote Sensing Researcher | Geo-geek"
