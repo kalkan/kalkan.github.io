@@ -16,5 +16,4 @@ I completed my undergraduate, graduate and doctoral studies at Istanbul Technica
 
 My youtube page [kaankalkangeomatik](https://www.youtube.com/kaankalkangeomatik) where you can find various Turkish videos about Geomatics
 
-Translated with www.DeepL.com/Translator (free version)
 
