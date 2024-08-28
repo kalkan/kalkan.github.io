@@ -39,43 +39,16 @@ This course introduces the principles and applications of remote sensing, emphas
 * Orfeo Toolbox ile Temel Uydu Görüntü İşleme: [https://github.com/kalkan/OTBileUyduGoruntuIsleme](https://github.com/kalkan/OTBileUyduGoruntuIsleme)
 * SNAP Yazılımı ile Sentinel-2 Verisi İşleme: [https://github.com/kalkan/SNAPileSentinel-2](https://github.com/kalkan/SNAPileSentinel-2)
 
-# Ödevler
+# Homeworks
 ------
-> **1. ödev** ile ilgili bilgileri [linkte](http://kalkan.github.io/files/ucs635-2024-2/Odev1.pdf) bulabilirsiniz. 
-* Ödevin yılsonu notuna katkısı %30'dir.
-* Ödevde kullanılacak OTB yazılımı linkten indirilebilir. [Monteverdi Orfeo Toolbox](https://www.orfeo-toolbox.org/download/)
-* Ödevde kullanılacak veriler için https://github.com/kalkan/kalkan.github.io/blob/master/files/ucs635-2023/veriodev1.zip (download ile indirebilirsiniz)
-
-> **2. ödev** ile ilgili bilgileri [linkte](http://kalkan.github.io/files/ucs635-2024-2/Odev2.pdf) bulabilirsiniz. 
-* Ödevin yılsonu notuna katkısı %20'dir.
-* Ödevde kullanılacak SNAP yazılımı linkten indirilebilir. [SNAP](https://step.esa.int/main/download/snap-download/)
   
-Dönem Projesi
+# Project
 ------
-> **Proje ödevi** ile ilgili bilgileri [linkte](http://kalkan.github.io/files/ucs635-2024-2/donemProjesi.pdf) bulabilirsiniz. 
-* Ödevin son teslim tarihi 13 Haziran 2024 Saat 23:00 
-* Ödevin yılsonu notuna katkısı %50'dur.
 
 # Ders İçeriği
 ------
 ## Course Outline
-* Uydular ve Yer Gözlem
-* Tarihçe
-  * https://www.unoosa.org/oosa/en/timeline/index.html
-  * https://www.tua.gov.tr/en/our-space-history
-* Türkiye ve Uzay
-* Uzaktan Algılama'daki 7 İşlem
-  * https://www.ncfc.gov.in/publications/p1.pdf
-* Platformlar
-* Yörüngeler
-  * http://www.dspmuranchi.ac.in/pdf/Blog/REMOTE%20SENSING%20SATELLITES%20AND%20ITS%20ORBITS.pdf
-  * https://www.youtube.com/watch?v=8KL2s2Ib4Q4
-  * https://www.n2yo.com/satellite/?s=39030
-* Sensörler
-  * https://www.youtube.com/watch?v=c-JURgkLAW4
-  * https://up42.com/blog/tech/a-definitive-guide-to-buying-and-using-satellite-imagery
-* Enerji Kaynakları, Atmosfer ve Yüzey ile Etkileşim
-* Uzaktan Algılama için Mekânsal Veri Çerçevesi
+
 
 ## Prerequisites
 •	Basic knowledge of programming (e.g., Python, MATLAB).
@@ -109,27 +82,27 @@ Dönem Projesi
 
 
 ## Course Policies
-•	Attendance: Regular attendance is expected.
-•	Late Submissions: Assignments submitted late will incur a penalty unless prior arrangements are made.
-•	Academic Integrity: Plagiarism and cheating are strictly prohibited and will result in disciplinary action.
+* Attendance: Regular attendance is expected.
+*	Late Submissions: Assignments submitted late will incur a penalty unless prior arrangements are made.
+*	Academic Integrity: Plagiarism and cheating are strictly prohibited and will result in disciplinary action.
 
 
 ## Software and Tools
-•	Python
-•	MATLAB
-•	QGIS
-•	Google Earth Engine
-•	Orfeo Toolbox
+*	Python
+*	MATLAB
+*	QGIS
+*	Google Earth Engine
+*	Orfeo Toolbox
 
 ## Textbooks and Resources
 
 Primary Textbooks: 
 
-•	Remote Sensing Digital Image Analysis, John A. Richards, Xiuping Jia
-•	Remote Sensing and Image Interpretation, Thomas M. Lillesand
-•	Uzaktan Algılama, Filiz Sunar
-•	Dijital Görüntü İşleme, Filiz Sunar
-•	Uzaktan Algılama ve Görüntü Yorumlama, Kaan Şevki Kavak
+* Remote Sensing Digital Image Analysis, John A. Richards, Xiuping Jia
+* Remote Sensing and Image Interpretation, Thomas M. Lillesand
+*	Uzaktan Algılama, Filiz Sunar
+*	Dijital Görüntü İşleme, Filiz Sunar
+*	Uzaktan Algılama ve Görüntü Yorumlama, Kaan Şevki Kavak
 
 Supplementary Materials: Selected research papers, online tutorials, and datasets.
 
