@@ -51,41 +51,27 @@ This course introduces the principles and applications of remote sensing, emphas
 
 
 ## Prerequisites
-•	Basic knowledge of programming (e.g., Python, MATLAB).
-•	Familiarity with linear algebra and statistics.
+*	Basic knowledge of programming (e.g., Python, MATLAB).
+*	Familiarity with linear algebra and statistics.
 
 
 ## Course Objectives
-•	Understand the basic principles of remote sensing and electromagnetic spectrum.
-•	Learn the methods for acquiring, processing, and interpreting remote sensing data.
-•	Apply image processing techniques to analyze remote sensing data.
-•	Explore practical applications of remote sensing in various industries.
-
-
-## Ön-İşleme -2  (Pre-processing)
-* Coğrafi Referanslama
-* Rektifikasyon
-* Ortorektifikasyon
-* Pankeskinleştirme
-* Renk iyileştirme
-* Keskinlik arttırma
-* Stereo görüntüler
-* Mozaik görüntüler
-* Bant çakıştırma
+*	Understand the basic principles of remote sensing and electromagnetic spectrum.
+*	Learn the methods for acquiring, processing, and interpreting remote sensing data.
+*	Apply image processing techniques to analyze remote sensing data.
+*	Explore practical applications of remote sensing in various industries.
 
 ## Grading 
-•	Homework Assignments: 20%
-•	Midterm Exam: 20%
-•	Final Exam: 30%
-•	Final Project: 20%
-•	Participation: 10%
-
+*	Homework Assignments: 20%
+*	Midterm Exam: 20%
+*	Final Exam: 30%
+*	Final Project: 20%
+*	Participation: 10%
 
 ## Course Policies
 * Attendance: Regular attendance is expected.
 *	Late Submissions: Assignments submitted late will incur a penalty unless prior arrangements are made.
 *	Academic Integrity: Plagiarism and cheating are strictly prohibited and will result in disciplinary action.
-
 
 ## Software and Tools
 *	Python
