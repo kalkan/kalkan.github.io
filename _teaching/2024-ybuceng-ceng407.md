@@ -1,0 +1,149 @@
+---
+title: "Yıldırım Beyazıt Üniversitesi - Bilgisayar Mühendisliği - Remote Sensing (CENG407) - 2024"
+collection: teaching
+type: "Bachelor course"
+permalink: /teaching/2024-ybuceng-ceng407
+venue: "Yıldırım Beyazıt Üniversitesi"
+date: 09-09-2024
+location: "Ankara, Türkiye"
+---
+
+Eskişehir Teknik Üniversitesi, Yer ve Uzay Bilimleri Enstitüsü, Uzaktan Algılama ve Coğrafi Bilgi Sistemleri Doktora Programı UCS635 Uydu Görüntü İşleme dersi ile ilgili bilgilerin paylaşılacağı sayfadır.
+
+> Derslerimiz **Salı günleri Saat 19:30'** da size iletilecek Zoom linki üzerinden yürütülecektir.
+
+* Ders ile ilgili bilgilerin özetlendiği [ders bilgi formunu](http://kalkan.github.io/files/ucs635-2019/UCS635_2019_UyduGoruntuIsleme_KaanKalkan.pdf) incelemeyi unutmayınız.
+
+* Derse kayıt olduktan sonra [öğrenci bilgi formunu](https://goo.gl/forms/nQR3TQm4LoK9DMDJ3) doldurmayı unutmayınız.
+
+> Bilgisayarınıza aşağıdaki açık kaynaklı programları kurmanızı öneririm;
+* [Monteverdi Orfeo Toolbox](https://www.orfeo-toolbox.org/download/)
+* [SNAP](https://step.esa.int/main/download/snap-download/)
+* [QGIS](https://qgis.org/en/site/forusers/download.html)
+
+> Aşağıdaki web sayfalarına üye olmanızı öneririm;
+* [USGS Earth Explorer](https://earthexplorer.usgs.gov/)
+* [Copernicus Open Access Hub](https://browser.dataspace.copernicus.eu/)
+
+> Sentinel verilerinin nasıl indirilebileceği ile ilgili bilgi:
+* [https://gisgeography.com/how-to-download-sentinel-satellite-data/](https://gisgeography.com/how-to-download-sentinel-satellite-data/)
+
+> Ödevlerin nasıl yapılacağı ile ilgili yönergeler için:
+* Orfeo Toolbox ile Temel Uydu Görüntü İşleme: [https://github.com/kalkan/OTBileUyduGoruntuIsleme](https://github.com/kalkan/OTBileUyduGoruntuIsleme)
+* SNAP Yazılımı ile Sentinel-2 Verisi İşleme: [https://github.com/kalkan/SNAPileSentinel-2](https://github.com/kalkan/SNAPileSentinel-2)
+
+# Ödevler
+------
+> **1. ödev** ile ilgili bilgileri [linkte](http://kalkan.github.io/files/ucs635-2024-2/Odev1.pdf) bulabilirsiniz. 
+* Ödevin yılsonu notuna katkısı %30'dir.
+* Ödevde kullanılacak OTB yazılımı linkten indirilebilir. [Monteverdi Orfeo Toolbox](https://www.orfeo-toolbox.org/download/)
+* Ödevde kullanılacak veriler için https://github.com/kalkan/kalkan.github.io/blob/master/files/ucs635-2023/veriodev1.zip (download ile indirebilirsiniz)
+
+> **2. ödev** ile ilgili bilgileri [linkte](http://kalkan.github.io/files/ucs635-2024-2/Odev2.pdf) bulabilirsiniz. 
+* Ödevin yılsonu notuna katkısı %20'dir.
+* Ödevde kullanılacak SNAP yazılımı linkten indirilebilir. [SNAP](https://step.esa.int/main/download/snap-download/)
+  
+Dönem Projesi
+------
+> **Proje ödevi** ile ilgili bilgileri [linkte](http://kalkan.github.io/files/ucs635-2024-2/donemProjesi.pdf) bulabilirsiniz. 
+* Ödevin son teslim tarihi 13 Haziran 2024 Saat 23:00 
+* Ödevin yılsonu notuna katkısı %50'dur.
+
+# Ders İçeriği
+------
+## Uzaktan Algılama’ya Giriş
+* Uydular ve Yer Gözlem
+* Tarihçe
+  * https://www.unoosa.org/oosa/en/timeline/index.html
+  * https://www.tua.gov.tr/en/our-space-history
+* Türkiye ve Uzay
+* Uzaktan Algılama'daki 7 İşlem
+  * https://www.ncfc.gov.in/publications/p1.pdf
+* Platformlar
+* Yörüngeler
+  * http://www.dspmuranchi.ac.in/pdf/Blog/REMOTE%20SENSING%20SATELLITES%20AND%20ITS%20ORBITS.pdf
+  * https://www.youtube.com/watch?v=8KL2s2Ib4Q4
+  * https://www.n2yo.com/satellite/?s=39030
+* Sensörler
+  * https://www.youtube.com/watch?v=c-JURgkLAW4
+  * https://up42.com/blog/tech/a-definitive-guide-to-buying-and-using-satellite-imagery
+* Enerji Kaynakları, Atmosfer ve Yüzey ile Etkileşim
+* Uzaktan Algılama için Mekânsal Veri Çerçevesi
+
+## Uydu Görüntü İşleme’de Temel Kavramlar
+* Piksel, Bant
+  * https://www.youtube.com/watch?v=15aqFQQVBWU
+* Çok bantlı görüntüler
+* Görüntü oluşrturma prensipleri
+* Işık ve Renk
+* Histogram
+* Mekansal, Radyometrik, Spektral, Zamansal Çözünürlü Kavramları
+* Yer Örnekleme Aralığı
+* Ölçek vs Piksel Boyutu
+* Çözünürlük ve Öznitelik Çıkarımı
+
+## Ön-İşleme (Pre-processing)
+* Ön-İşleme Nedir?
+* Görüntü Ön-İşleme Seviyeleri
+* Radyometrik Düzeltme
+* Radyometrik Kalibrasyon
+* MTF, GIQE, SNR
+* Atmosferik Düzeltme
+* Radyans, Reflektans, Parlaklık Sıcaklığı
+* BRDF
+* MODTRAN, 6S
+* Tuz Gölü
+* Geometrik Düzeltme
+* Rektifikasyon
+* Orto-rektifikasyon
+* Stereo
+
+## Ön-İşleme -2  (Pre-processing)
+* Coğrafi Referanslama
+* Rektifikasyon
+* Ortorektifikasyon
+* Pankeskinleştirme
+* Renk iyileştirme
+* Keskinlik arttırma
+* Stereo görüntüler
+* Mozaik görüntüler
+* Bant çakıştırma
+
+## Geometrik Düzeltme
+* Neden Geometrik Düzeltme?
+* Geometrik Distorsiyonlar
+* Rektifikasyon
+* Ortorektifikasyon
+* RPC
+* Yeniden Örnekleme
+* Geo-coding, geo-referencing, rectification kavrammları
+
+## Uydu Görüntü Yorumlama Teknikleri (Image Interpretation)
+* Tarihçe
+* Renk-Ton
+* Şekil
+* Boyut
+* Gölge
+* Yükseklik-Derinlik
+* Texture-yüzey
+* Pattern-doku
+* Komşuluk / site-situation-association
+* Örnek görüntüler ve tahmin oyunu
+
+## Uydu Görüntü Sınıflandırma
+* Sınıflandırma yöntemleri
+* Sınıflandırma şemaları
+* Segmentasyon
+* Semantik segmentasyon
+* İleri seviye görüntü işleme, Derin Öğrenme
+* Doğruluk analizi
+
+## Sayısal Yükseklik Modelleri
+* DEM, DSM, DTM
+* LIDAR
+* SRTM
+* Stereo / tristereo
+* inSAR
+* Point cloud generation
+* Klasik haritacılık yöntemleri
+* Eğim, Bakı, Eşyükselti eğrileri, Gölgeli kabartma, Görünürlük, Kazı-dolgu
