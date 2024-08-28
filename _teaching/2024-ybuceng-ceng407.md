@@ -8,20 +8,20 @@ date: 09-09-2024
 location: "Ankara, Türkiye"
 ---
 
-Instructor: [Your Name]
-Contact Information: [Email Address]
-Office Hours: [Days and Times]
-Course Schedule: [Day(s) and Time(s)]
-Location: [Classroom/Online Platform]
+Instructor: Dr. Kaan Kalkan
+
+Contact Information: kaan.kalkan@tubitak.gov.tr
+
+Office Hours: Everyday via mail
+
+Course Schedule: To be announced
+
+Location: To be announced
 
 
-Eskişehir Teknik Üniversitesi, Yer ve Uzay Bilimleri Enstitüsü, Uzaktan Algılama ve Coğrafi Bilgi Sistemleri Doktora Programı UCS635 Uydu Görüntü İşleme dersi ile ilgili bilgilerin paylaşılacağı sayfadır.
+Yıldırım Beyazıt Üniversitesi - Bilgisayar Mühendisliği - Remote Sensing (CENG407) - 2024 dersi ile ilgili bilgilerin paylaşılacağı sayfadır.
 
-> Derslerimiz **Salı günleri Saat 19:30'** da size iletilecek Zoom linki üzerinden yürütülecektir.
-
-* Ders ile ilgili bilgilerin özetlendiği [ders bilgi formunu](http://kalkan.github.io/files/ucs635-2019/UCS635_2019_UyduGoruntuIsleme_KaanKalkan.pdf) incelemeyi unutmayınız.
-
-* Derse kayıt olduktan sonra [öğrenci bilgi formunu](https://goo.gl/forms/nQR3TQm4LoK9DMDJ3) doldurmayı unutmayınız.
+This course introduces the principles and applications of remote sensing, emphasizing the integration of remote sensing data with computational techniques. The course will cover the fundamentals of remote sensing and image processing techniques applied to remotely sensed data, with a focus on practical applications in various fields such as environmental monitoring, agriculture, and urban planning.
 
 > Bilgisayarınıza aşağıdaki açık kaynaklı programları kurmanızı öneririm;
 * [Monteverdi Orfeo Toolbox](https://www.orfeo-toolbox.org/download/)
@@ -58,7 +58,7 @@ Dönem Projesi
 
 # Ders İçeriği
 ------
-## Uzaktan Algılama’ya Giriş
+## Course Outline
 * Uydular ve Yer Gözlem
 * Tarihçe
   * https://www.unoosa.org/oosa/en/timeline/index.html
@@ -77,33 +77,17 @@ Dönem Projesi
 * Enerji Kaynakları, Atmosfer ve Yüzey ile Etkileşim
 * Uzaktan Algılama için Mekânsal Veri Çerçevesi
 
-## Uydu Görüntü İşleme’de Temel Kavramlar
-* Piksel, Bant
-  * https://www.youtube.com/watch?v=15aqFQQVBWU
-* Çok bantlı görüntüler
-* Görüntü oluşrturma prensipleri
-* Işık ve Renk
-* Histogram
-* Mekansal, Radyometrik, Spektral, Zamansal Çözünürlü Kavramları
-* Yer Örnekleme Aralığı
-* Ölçek vs Piksel Boyutu
-* Çözünürlük ve Öznitelik Çıkarımı
+## Prerequisites
+•	Basic knowledge of programming (e.g., Python, MATLAB).
+•	Familiarity with linear algebra and statistics.
 
-## Ön-İşleme (Pre-processing)
-* Ön-İşleme Nedir?
-* Görüntü Ön-İşleme Seviyeleri
-* Radyometrik Düzeltme
-* Radyometrik Kalibrasyon
-* MTF, GIQE, SNR
-* Atmosferik Düzeltme
-* Radyans, Reflektans, Parlaklık Sıcaklığı
-* BRDF
-* MODTRAN, 6S
-* Tuz Gölü
-* Geometrik Düzeltme
-* Rektifikasyon
-* Orto-rektifikasyon
-* Stereo
+
+## Course Objectives
+•	Understand the basic principles of remote sensing and electromagnetic spectrum.
+•	Learn the methods for acquiring, processing, and interpreting remote sensing data.
+•	Apply image processing techniques to analyze remote sensing data.
+•	Explore practical applications of remote sensing in various industries.
+
 
 ## Ön-İşleme -2  (Pre-processing)
 * Coğrafi Referanslama
@@ -116,41 +100,36 @@ Dönem Projesi
 * Mozaik görüntüler
 * Bant çakıştırma
 
-## Geometrik Düzeltme
-* Neden Geometrik Düzeltme?
-* Geometrik Distorsiyonlar
-* Rektifikasyon
-* Ortorektifikasyon
-* RPC
-* Yeniden Örnekleme
-* Geo-coding, geo-referencing, rectification kavrammları
+## Grading 
+•	Homework Assignments: 20%
+•	Midterm Exam: 20%
+•	Final Exam: 30%
+•	Final Project: 20%
+•	Participation: 10%
 
-## Uydu Görüntü Yorumlama Teknikleri (Image Interpretation)
-* Tarihçe
-* Renk-Ton
-* Şekil
-* Boyut
-* Gölge
-* Yükseklik-Derinlik
-* Texture-yüzey
-* Pattern-doku
-* Komşuluk / site-situation-association
-* Örnek görüntüler ve tahmin oyunu
 
-## Uydu Görüntü Sınıflandırma
-* Sınıflandırma yöntemleri
-* Sınıflandırma şemaları
-* Segmentasyon
-* Semantik segmentasyon
-* İleri seviye görüntü işleme, Derin Öğrenme
-* Doğruluk analizi
+## Course Policies
+•	Attendance: Regular attendance is expected.
+•	Late Submissions: Assignments submitted late will incur a penalty unless prior arrangements are made.
+•	Academic Integrity: Plagiarism and cheating are strictly prohibited and will result in disciplinary action.
 
-## Sayısal Yükseklik Modelleri
-* DEM, DSM, DTM
-* LIDAR
-* SRTM
-* Stereo / tristereo
-* inSAR
-* Point cloud generation
-* Klasik haritacılık yöntemleri
-* Eğim, Bakı, Eşyükselti eğrileri, Gölgeli kabartma, Görünürlük, Kazı-dolgu
+
+## Software and Tools
+•	Python
+•	MATLAB
+•	QGIS
+•	Google Earth Engine
+•	Orfeo Toolbox
+
+## Textbooks and Resources
+
+Primary Textbooks: 
+
+•	Remote Sensing Digital Image Analysis, John A. Richards, Xiuping Jia
+•	Remote Sensing and Image Interpretation, Thomas M. Lillesand
+•	Uzaktan Algılama, Filiz Sunar
+•	Dijital Görüntü İşleme, Filiz Sunar
+•	Uzaktan Algılama ve Görüntü Yorumlama, Kaan Şevki Kavak
+
+Supplementary Materials: Selected research papers, online tutorials, and datasets.
+
