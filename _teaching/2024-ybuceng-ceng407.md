@@ -8,6 +8,13 @@ date: 09-09-2024
 location: "Ankara, Türkiye"
 ---
 
+Instructor: [Your Name]
+Contact Information: [Email Address]
+Office Hours: [Days and Times]
+Course Schedule: [Day(s) and Time(s)]
+Location: [Classroom/Online Platform]
+
+
 Eskişehir Teknik Üniversitesi, Yer ve Uzay Bilimleri Enstitüsü, Uzaktan Algılama ve Coğrafi Bilgi Sistemleri Doktora Programı UCS635 Uydu Görüntü İşleme dersi ile ilgili bilgilerin paylaşılacağı sayfadır.
 
 > Derslerimiz **Salı günleri Saat 19:30'** da size iletilecek Zoom linki üzerinden yürütülecektir.
