@@ -4,7 +4,7 @@ collection: teaching
 type: "Bachelor course"
 permalink: /teaching/2024-ybuceng-ceng407
 venue: "Yıldırım Beyazıt Üniversitesi"
-date: 09-09-2024
+date: 16-09-2024
 location: "Ankara, Türkiye"
 ---
 
@@ -51,7 +51,7 @@ This course introduces the principles and applications of remote sensing, emphas
 
 
 ## Prerequisites
-*	Basic knowledge of programming (e.g., Python, MATLAB).
+*	Basic knowledge of programming (e.g., Python).
 *	Familiarity with linear algebra and statistics.
 
 
@@ -62,11 +62,9 @@ This course introduces the principles and applications of remote sensing, emphas
 *	Explore practical applications of remote sensing in various industries.
 
 ## Grading 
-*	Homework Assignments: 20%
-*	Midterm Exam: 20%
+*	Homework Assignments: 40%
 *	Final Exam: 30%
-*	Final Project: 20%
-*	Participation: 10%
+*	Final Project: 30%
 
 ## Course Policies
 * Attendance: Regular attendance is expected.
@@ -75,7 +73,6 @@ This course introduces the principles and applications of remote sensing, emphas
 
 ## Software and Tools
 *	Python
-*	MATLAB
 *	QGIS
 *	Google Earth Engine
 *	Orfeo Toolbox
