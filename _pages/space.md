@@ -2,9 +2,11 @@
 layout: space
 title: "Dr. Kaan Kalkan | Uzaktan Algılama"
 description: "Uzaktan algılama araştırmacısı, TÜBİTAK UZAY — Uzay temalı kişisel sayfa."
-permalink: /space/
+permalink: /
 author_profile: false
 sitemap: true
+redirect_from:
+  - /space/
 ---
 
 {% include base_path %}
@@ -165,7 +167,7 @@ sitemap: true
       <h3>YouTube Kanalı</h3>
       <p>Türkçe uzaktan algılama ve geomatik video içerikleri.</p>
     </a>
-    <a class="explore-card" href="{{ base_path }}/">
+    <a class="explore-card" href="{{ base_path }}/classic/">
       <span class="label">Klasik</span>
       <h3>Akademik Sayfa</h3>
       <p>Klasik akademik sayfa görünümüne geri dön.</p>
