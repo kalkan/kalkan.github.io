@@ -228,13 +228,13 @@ redirect_from:
     </div>
     <div>
       <p style="color: var(--text-soft);">
-        Geomatik/uzaktan algılama alanında birlikte araştırma yapmak, öğrenci
-        danışmanlığı veya TÜBİTAK UZAY'daki projeler hakkında görüşmek isterseniz
-        bana ulaşın. Yeni fikirlere ve iş birliklerine her zaman açığım.
+        Geomatik/uzaktan algılama alanında birlikte araştırma yapmak veya
+        öğrenci danışmanlığı için bana ulaşın. Yeni fikirlere ve iş birliklerine
+        her zaman açığım.
       </p>
       <p style="color: var(--text-dim); font-size: 13px; margin-top: 24px;">
-        "We choose to go to the Moon... not because they are easy, but because they
-        are hard." — J. F. Kennedy
+        "İstikbal göklerdedir. Çünkü göklerini koruyamayan milletler,
+        yarınlarından asla emin olamazlar." — Mustafa Kemal Atatürk
       </p>
     </div>
   </div>
