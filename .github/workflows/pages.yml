@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - master
+      - gh-pages
       - claude/space-themed-homepage-4deC3
   workflow_dispatch:
 
