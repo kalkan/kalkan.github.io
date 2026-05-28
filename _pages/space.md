@@ -9,8 +9,6 @@ redirect_from:
   - /space/
 ---
 
-{% include base_path %}
-
 <div class="shooting-star"></div>
 
 <!-- ========================= HERO ========================= -->
@@ -26,8 +24,8 @@ redirect_from:
     </p>
     <div class="hero-cta">
       <a class="btn btn-primary" href="#explore">Keşfet</a>
-      <a class="btn btn-ghost" href="{{ base_path }}/cv/">CV'yi Gör</a>
-      <a class="btn btn-ghost" href="{{ base_path }}/pubs/">Yayınlar</a>
+      <a class="btn btn-ghost" href="/cv/">CV'yi Gör</a>
+      <a class="btn btn-ghost" href="/pubs/">Yayınlar</a>
     </div>
   </div>
 
@@ -50,7 +48,7 @@ redirect_from:
   <h2>Uzaktan Algılamaya Adanmış Bir Kariyer</h2>
 
   <div class="about-grid">
-    <img class="about-photo" src="{{ base_path }}/images/pp.jpg" alt="Kaan Kalkan">
+    <img class="about-photo" src="/images/pp.jpg" alt="Kaan Kalkan">
     <div class="about-body">
       <p>
         Şu anda <a href="https://uzay.tubitak.gov.tr/">TÜBİTAK Uzay Teknolojileri
@@ -132,32 +130,32 @@ redirect_from:
   <h2>Siteyi Gezin</h2>
 
   <div class="explore-grid">
-    <a class="explore-card" href="{{ base_path }}/cv/">
+    <a class="explore-card" href="/cv/">
       <span class="label">Profil</span>
       <h3>CV</h3>
       <p>Eğitim, iş tecrübesi, beceriler ve akademik özet.</p>
     </a>
-    <a class="explore-card" href="{{ base_path }}/pubs/">
+    <a class="explore-card" href="/pubs/">
       <span class="label">Akademik</span>
       <h3>Yayınlar</h3>
       <p>Makale, bildiri ve kitap bölümü yayınlarımın tam listesi.</p>
     </a>
-    <a class="explore-card" href="{{ base_path }}/talks/">
+    <a class="explore-card" href="/talks/">
       <span class="label">Sunumlar</span>
       <h3>Konuşmalar</h3>
       <p>Konferans, sempozyum ve davetli seminer sunumlarım.</p>
     </a>
-    <a class="explore-card" href="{{ base_path }}/teaching/">
+    <a class="explore-card" href="/teaching/">
       <span class="label">Eğitim</span>
       <h3>Dersler</h3>
       <p>ETU ve Anadolu Üniversitesi'nde verdiğim dersler ve materyaller.</p>
     </a>
-    <a class="explore-card" href="{{ base_path }}/portfolio/">
+    <a class="explore-card" href="/portfolio/">
       <span class="label">Projeler</span>
       <h3>Portfolyo</h3>
       <p>Yürüttüğüm/katıldığım uzaktan algılama projeleri.</p>
     </a>
-    <a class="explore-card" href="{{ base_path }}/geopy/">
+    <a class="explore-card" href="/geopy/">
       <span class="label">Kod</span>
       <h3>Geospatial Python</h3>
       <p>Python ile mekansal veri işleme örnekleri ve GitHub repoları.</p>
@@ -167,7 +165,7 @@ redirect_from:
       <h3>YouTube Kanalı</h3>
       <p>Türkçe uzaktan algılama ve geomatik video içerikleri.</p>
     </a>
-    <a class="explore-card" href="{{ base_path }}/classic/">
+    <a class="explore-card" href="/classic/">
       <span class="label">Klasik</span>
       <h3>Akademik Sayfa</h3>
       <p>Klasik akademik sayfa görünümüne geri dön.</p>
