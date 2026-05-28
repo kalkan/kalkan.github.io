@@ -12,7 +12,7 @@ title                    : "Dr. Kaan Kalkan"
 title_separator          : "-"
 name                     : &name "Kaan Kalkan"
 description              : &description "my academic website"
-url                      : https://kalkan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://kaankalkan.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : 
 repository               : "kalkan/kalkan.github.io"
 
