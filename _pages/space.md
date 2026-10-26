@@ -130,6 +130,11 @@ redirect_from:
   <h2>Siteyi Gezin</h2>
 
   <div class="explore-grid">
+    <a class="explore-card" href="/uydular/">
+      <span class="label">Timeline</span>
+      <h3>Türk Uyduları</h3>
+      <p>BİLSAT'tan İMECE'ye — Türkiye'nin yer gözlem uyduları zaman çizelgesi.</p>
+    </a>
     <a class="explore-card" href="/cv/">
       <span class="label">Profil</span>
       <h3>CV</h3>
