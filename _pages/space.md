@@ -150,11 +150,6 @@ redirect_from:
       <h3>Dersler</h3>
       <p>ETU ve Anadolu Üniversitesi'nde verdiğim dersler ve materyaller.</p>
     </a>
-    <a class="explore-card" href="/portfolio/">
-      <span class="label">Projeler</span>
-      <h3>Portfolyo</h3>
-      <p>Yürüttüğüm/katıldığım uzaktan algılama projeleri.</p>
-    </a>
     <a class="explore-card" href="/geopy/">
       <span class="label">Kod</span>
       <h3>Geospatial Python</h3>
@@ -164,11 +159,6 @@ redirect_from:
       <span class="label">Video</span>
       <h3>YouTube Kanalı</h3>
       <p>Türkçe uzaktan algılama ve geomatik video içerikleri.</p>
-    </a>
-    <a class="explore-card" href="/classic/">
-      <span class="label">Klasik</span>
-      <h3>Akademik Sayfa</h3>
-      <p>Klasik akademik sayfa görünümüne geri dön.</p>
     </a>
   </div>
 </section>
