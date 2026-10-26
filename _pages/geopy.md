@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: space-page
 title: "Geospatial Python"
 permalink: /geopy/
-author_profile: true
 ---
 
 > Python ile Mekansal Programlama ile İlgili Örneklerin Olduğu Github Repolarım

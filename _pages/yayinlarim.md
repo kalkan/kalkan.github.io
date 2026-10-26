@@ -1,8 +1,7 @@
 ---
-layout: archive
-title: "Publications"
+layout: space-page
+title: "Yayınlar"
 permalink: /pubs/
-author_profile: true
 ---
 Nasery, S., & Kalkan, K. (2021). Snow avalanche risk mapping using GIS-based multi-criteria decision analysis: the case of Van, Turkey. Arabian Journal of Geosciences, 14(9), 782. https://doi.org/10.1007/s12517-021-07112-4 (SCI)
 

@@ -1,8 +1,8 @@
 ---
 permalink: /classic/
+layout: space-page
 title: "Kaan Kalkan"
 excerpt: "About me"
-author_profile: true
 redirect_from:
   - /about/
   - /about.html
