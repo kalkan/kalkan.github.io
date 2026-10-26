@@ -887,3 +887,278 @@ a:hover { color: var(--accent-2); }
   .space-nav ul { display: none; }
 }
 
+/* ============================================================
+   Turkish EO satellites timeline (/uydular/)
+   ============================================================ */
+
+.sat-intro,
+.sat-outro {
+  max-width: 760px;
+  margin: 20px auto 40px;
+  text-align: center;
+  color: var(--text-soft);
+  font-size: 15px;
+  line-height: 1.75;
+}
+.sat-outro {
+  margin: 50px auto 20px;
+  padding-top: 30px;
+  border-top: 1px dashed rgba(110, 231, 255, 0.2);
+}
+
+.sat-timeline {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto 0;
+  max-width: 1000px;
+  position: relative;
+}
+/* Central vertical rail */
+.sat-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: linear-gradient(180deg,
+    rgba(110, 231, 255, 0.0) 0%,
+    rgba(110, 231, 255, 0.5) 10%,
+    rgba(178, 140, 255, 0.5) 50%,
+    rgba(110, 231, 255, 0.5) 90%,
+    rgba(110, 231, 255, 0.0) 100%);
+  transform: translateX(-50%);
+  box-shadow: 0 0 12px rgba(110, 231, 255, 0.35);
+}
+
+.sat-node {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  gap: 0;
+  align-items: center;
+  padding: 36px 0;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+.sat-node.is-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Marker (satellite icon on the rail) */
+.sat-marker {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.sat-marker::before {
+  /* orbit ring */
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 1px dashed rgba(110, 231, 255, 0.4);
+  opacity: 0;
+  transform: scale(0.6);
+  transition: opacity 0.6s 0.25s ease, transform 0.6s 0.25s ease;
+}
+.sat-node.is-active .sat-marker::before {
+  opacity: 1;
+  transform: scale(1);
+  animation: sat-spin 14s linear infinite;
+}
+.sat-marker::after {
+  /* outer glow */
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(110, 231, 255, 0.35), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.6s 0.35s ease;
+}
+.sat-node.is-active .sat-marker::after { opacity: 1; }
+
+@keyframes sat-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Satellite icon (built with pseudo-elements) */
+.sat-icon {
+  position: relative;
+  width: 28px;
+  height: 14px;
+  transform: scale(0.3);
+  opacity: 0;
+  transition: transform 0.6s 0.45s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.6s 0.45s ease;
+}
+.sat-node.is-active .sat-icon {
+  transform: scale(1);
+  opacity: 1;
+}
+.sat-body {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #e9f1ff, #8a9fd0);
+  border: 1px solid #4a6aaa;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(110, 231, 255, 0.9);
+}
+.sat-wing {
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 8px;
+  transform: translateY(-50%);
+  background: repeating-linear-gradient(90deg, #2a4a8a 0 3px, #1a2a5a 3px 6px);
+  border: 1px solid #4a6aaa;
+}
+.sat-wing-l { left: -16px; }
+.sat-wing-r { right: -16px; }
+
+/* Card */
+.sat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 16px;
+  padding: 22px 24px;
+  position: relative;
+  box-shadow: 0 16px 40px rgba(3, 5, 26, 0.5);
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.sat-left  .sat-card { grid-column: 1; margin-right: 20px; }
+.sat-right .sat-card { grid-column: 3; margin-left: 20px; }
+
+.sat-card::before {
+  /* little connector line from card to rail */
+  content: "";
+  position: absolute;
+  top: 36px;
+  width: 20px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  opacity: 0;
+  transition: opacity 0.5s 0.5s ease, width 0.5s 0.5s ease;
+}
+.sat-left  .sat-card::before { right: -20px; }
+.sat-right .sat-card::before {
+  left: -20px;
+  background: linear-gradient(270deg, var(--accent), transparent);
+}
+.sat-node.is-active .sat-card::before { opacity: 1; }
+
+.sat-node.is-active .sat-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(110, 231, 255, 0.4);
+  box-shadow: 0 24px 60px rgba(3, 5, 26, 0.65), 0 0 30px rgba(110, 231, 255, 0.15);
+}
+
+.sat-year {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: var(--accent);
+  margin-bottom: 4px;
+  opacity: 0.85;
+}
+.sat-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 4px;
+  background: linear-gradient(120deg, #ffffff, #6ee7ff 55%, #b28cff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.sat-tag {
+  color: var(--text-soft);
+  font-size: 13px;
+  margin: 0 0 14px;
+  font-style: italic;
+}
+.sat-specs {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 14px;
+}
+.sat-specs li {
+  display: flex;
+  flex-direction: column;
+  font-size: 12.5px;
+  padding: 6px 0;
+  border-bottom: 1px dashed rgba(120, 150, 255, 0.14);
+}
+.sat-specs li span {
+  color: var(--accent);
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.sat-specs li strong {
+  color: var(--text);
+  font-weight: 500;
+}
+.sat-desc {
+  margin: 10px 0 0;
+  color: var(--text-soft);
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+
+/* Mobile: collapse to a single column, all nodes on the left */
+@media (max-width: 820px) {
+  .sat-timeline { margin: 10px 10px 0; }
+  .sat-timeline::before { left: 24px; }
+  .sat-node,
+  .sat-node.sat-left,
+  .sat-node.sat-right {
+    grid-template-columns: 48px 1fr;
+    gap: 0;
+    padding: 20px 0;
+  }
+  .sat-marker { grid-column: 1; width: 48px; height: 48px; }
+  .sat-left  .sat-card,
+  .sat-right .sat-card {
+    grid-column: 2;
+    margin: 0 0 0 10px;
+  }
+  .sat-left  .sat-card::before,
+  .sat-right .sat-card::before {
+    left: -10px;
+    right: auto;
+    top: 28px;
+    background: linear-gradient(270deg, var(--accent), transparent);
+  }
+  .sat-specs { grid-template-columns: 1fr; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .sat-node,
+  .sat-icon,
+  .sat-marker::before,
+  .sat-marker::after,
+  .sat-card::before {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+
