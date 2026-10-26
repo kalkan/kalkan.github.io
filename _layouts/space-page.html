@@ -37,8 +37,17 @@ layout: compress
 
     <main class="space-main">
       <header class="page-hero">
-        <p class="page-hero-sub">Dr. Kaan Kalkan</p>
-        <h1 class="page-hero-title">{{ page.title }}</h1>
+        <p class="page-hero-sub">
+          {% if page.collection == 'teaching' %}Ders{% elsif page.collection == 'talks' %}Konuşma{% elsif page.collection == 'publications' %}Yayın{% elsif page.collection == 'portfolio' %}Proje{% else %}Dr. Kaan Kalkan{% endif %}
+        </p>
+        <h1 class="page-hero-title">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+        {% if page.collection == 'teaching' and page.venue %}
+          <p class="page-hero-meta">{{ page.type }} · {{ page.venue }}{% if page.location %} · {{ page.location }}{% endif %}{% if page.date %} · {{ page.date | date: "%Y" }}{% endif %}</p>
+        {% elsif page.collection == 'talks' and page.venue %}
+          <p class="page-hero-meta">{{ page.type | default: "Konuşma" }} · {{ page.venue }}{% if page.location %} · {{ page.location }}{% endif %}{% if page.date %} · {{ page.date | date: "%d %B %Y" }}{% endif %}</p>
+        {% elsif page.venue and page.date %}
+          <p class="page-hero-meta">{{ page.venue }} · {{ page.date | date: "%Y" }}</p>
+        {% endif %}
       </header>
 
       <article class="space-article">

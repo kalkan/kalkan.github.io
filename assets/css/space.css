@@ -663,6 +663,13 @@ a:hover { color: var(--accent-2); }
   box-shadow: 0 0 10px rgba(110, 231, 255, 0.6);
 }
 
+.page-hero-meta {
+  margin: 14px 0 0;
+  color: var(--text-soft);
+  font-size: 14px;
+  letter-spacing: 0.3px;
+}
+
 .space-article {
   max-width: 900px;
   margin: 20px auto 60px;
