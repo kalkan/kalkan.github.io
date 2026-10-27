@@ -8,7 +8,8 @@ description: "Türkiye'nin yer gözlem uydularının zaman çizelgesi: BİLSAT't
 <p class="sat-intro">
   Türkiye'nin uzaydan yeryüzünü izleme serüveni 2003'te BİLSAT ile başladı ve her
   uydu, bir öncekinden daha yüksek çözünürlük ve daha ileri yetenekle devam etti.
-  Aşağıdaki zaman çizelgesinde sayfayı aşağı kaydırdıkça uydular sırayla yörüngelerine yerleşir.
+  Aşağıdaki zaman çizelgesinde sayfayı aşağı kaydırdıkça uydular sırayla yörüngelerine yerleşir;
+  en altta ise geliştirme aşamasındaki yeni nesil uydular yer alır.
 </p>
 
 <ol class="sat-timeline">
@@ -103,17 +104,16 @@ description: "Türkiye'nin yer gözlem uydularının zaman çizelgesi: BİLSAT't
     <div class="sat-card">
       <div class="sat-year">2016</div>
       <h3 class="sat-name">Göktürk-1</h3>
-      <p class="sat-tag">Sub-metre çözünürlük — 0.8 m</p>
+      <p class="sat-tag">Sub-metre çözünürlük — 50 cm</p>
       <ul class="sat-specs">
         <li><span>Fırlatma</span><strong>5 Aralık 2016</strong></li>
-        <li><span>Çözünürlük</span><strong>0.8 m pan · 3.2 m MS</strong></li>
+        <li><span>Çözünürlük</span><strong>50 cm pan · 2 m MS</strong></li>
         <li><span>Yapımcı</span><strong>Thales Alenia Space (İtalya)</strong></li>
         <li><span>Yörünge</span><strong>681 km, güneş eşzamanlı</strong></li>
       </ul>
       <p class="sat-desc">
-        Türkiye'nin ilk sub-metre çözünürlüklü yer gözlem uydusu. İtalya'da üretildi,
-        Ankara'daki Göktürk Yer Sistemi'nden işletilmekte. Yüksek çözünürlüklü keşif,
-        haritalama ve istihbarat görevleri için kullanılıyor.
+        Türkiye'nin ilk sub-metre çözünürlüklü yer gözlem uydusu. İtalya'da üretildi.
+        Yüksek çözünürlüklü keşif, haritalama ve istihbarat görevleri için kullanılıyor.
       </p>
     </div>
   </li>
@@ -129,7 +129,7 @@ description: "Türkiye'nin yer gözlem uydularının zaman çizelgesi: BİLSAT't
     <div class="sat-card">
       <div class="sat-year">2023</div>
       <h3 class="sat-name">İMECE</h3>
-      <p class="sat-tag">Milli sub-metre çözünürlüklü uydu</p>
+      <p class="sat-tag">Göktürk 2B · Milli sub-metre çözünürlüklü uydu</p>
       <ul class="sat-specs">
         <li><span>Fırlatma</span><strong>15 Nisan 2023</strong></li>
         <li><span>Çözünürlük</span><strong>~1 m pan · 4 m MS</strong></li>
@@ -138,8 +138,79 @@ description: "Türkiye'nin yer gözlem uydularının zaman çizelgesi: BİLSAT't
       </ul>
       <p class="sat-desc">
         Türkiye'de tamamen yerli imkânlarla tasarlanıp üretilen en yüksek çözünürlüklü
-        yer gözlem uydusu. SpaceX Falcon 9 ile Vandenberg'den fırlatıldı. Milli uydu
-        geliştirme kabiliyetimizin geldiği noktayı temsil ediyor.
+        yer gözlem uydusu; Göktürk 2B olarak da anılır. SpaceX Falcon 9 ile Vandenberg'den
+        fırlatıldı. TUGEP (Türk Uyduları Geliştirme Projesi) kapsamında planlanan
+        <strong>İMECE 2 (2027)</strong> ve <strong>İMECE 3 (2028)</strong> uyduları,
+        <strong>50 cm pan · 2 m MS</strong> çözünürlükle sub-metre bantta yetenekleri
+        bir üst seviyeye taşıyacak.
+      </p>
+    </div>
+  </li>
+
+  <li class="sat-node sat-right sat-future" data-year="Planlı">
+    <div class="sat-marker">
+      <div class="sat-icon" aria-hidden="true">
+        <span class="sat-body"></span>
+        <span class="sat-wing sat-wing-l"></span>
+        <span class="sat-wing sat-wing-r"></span>
+      </div>
+    </div>
+    <div class="sat-card">
+      <div class="sat-year">Planlı</div>
+      <h3 class="sat-name">Gezgin</h3>
+      <p class="sat-tag">RİP çağrısı kapsamında geliştirilen uydumuz</p>
+      <ul class="sat-specs">
+        <li><span>Durum</span><strong>Geliştirme</strong></li>
+        <li><span>Yapımcı</span><strong>TÜBİTAK UZAY</strong></li>
+      </ul>
+      <p class="sat-desc">
+        TÜBİTAK UZAY'ın RİP (Rekabet Öncesi İşbirliği) çağrısı kapsamında geliştirmekte
+        olduğu yer gözlem uydusu.
+      </p>
+    </div>
+  </li>
+
+  <li class="sat-node sat-left sat-future" data-year="Planlı">
+    <div class="sat-marker">
+      <div class="sat-icon" aria-hidden="true">
+        <span class="sat-body"></span>
+        <span class="sat-wing sat-wing-l"></span>
+        <span class="sat-wing sat-wing-r"></span>
+      </div>
+    </div>
+    <div class="sat-card">
+      <div class="sat-year">Planlı</div>
+      <h3 class="sat-name">Göktürk-Y</h3>
+      <p class="sat-tag">Geliştirme aşamasında</p>
+      <ul class="sat-specs">
+        <li><span>Durum</span><strong>Geliştirme</strong></li>
+        <li><span>Yapımcı</span><strong>TUSAŞ</strong></li>
+      </ul>
+      <p class="sat-desc">
+        TUSAŞ tarafından geliştirilen yeni nesil yer gözlem uydusu.
+      </p>
+    </div>
+  </li>
+
+  <li class="sat-node sat-right sat-future" data-year="Planlı">
+    <div class="sat-marker">
+      <div class="sat-icon" aria-hidden="true">
+        <span class="sat-body"></span>
+        <span class="sat-wing sat-wing-l"></span>
+        <span class="sat-wing sat-wing-r"></span>
+      </div>
+    </div>
+    <div class="sat-card">
+      <div class="sat-year">Planlı</div>
+      <h3 class="sat-name">Göktürk-3</h3>
+      <p class="sat-tag">SAR — Her hava koşulunda radar görüntüleme</p>
+      <ul class="sat-specs">
+        <li><span>Durum</span><strong>Geliştirme</strong></li>
+        <li><span>Yapımcı</span><strong>TUSAŞ · Aselsan · TÜBİTAK UZAY</strong></li>
+      </ul>
+      <p class="sat-desc">
+        Türkiye'nin ilk Sentetik Açıklıklı Radar (SAR) yer gözlem uydusu;
+        TUSAŞ, Aselsan ve TÜBİTAK UZAY iş birliğiyle geliştiriliyor.
       </p>
     </div>
   </li>
@@ -147,8 +218,10 @@ description: "Türkiye'nin yer gözlem uydularının zaman çizelgesi: BİLSAT't
 </ol>
 
 <p class="sat-outro">
-  Sıradaki durak: daha küçük uydulardan oluşan takımyıldızlar, radar (SAR) yetenekleri
-  ve milli optik-yüksek çözünürlüklü uydular. Türkiye'nin uzay yolculuğu hızlanarak sürüyor.
+  BİLSAT'tan Göktürk-3'e uzanan bu yolculuk, Türkiye'nin yer gözlem alanında
+  dışa bağımlılığı azaltarak kendi tasarım, üretim ve operasyon kabiliyetini
+  inşa etme sürecini özetliyor. Yeni nesil optik ve SAR uyduları ile bir sonraki
+  on yıl, çok daha yoğun bir yörünge trafiği vaat ediyor.
 </p>
 
 <script>
